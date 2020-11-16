@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width initial-scale=1.0" />
+		<meta name="keywords" content="restaurant, fast food" />
+		<title> Restaurant</title>
+		<script src="https://kit.fontawesome.com/acdfbb0e18.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="responsive.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet"/>
+	</head>
+	<body>
+		<header id="header-wrap">
+			<div class="container">
+				<nav id="nav">
+					<i class="fas fa-bars menu" id="menu"></i>
+					<div id="menu-wrap">
+						<i class="fas fa-times menu" id="menu1"></i>
+						<ul id="menu-list">
+							<li class="pry-list" ><p><a href="#cols">FOOD</a></p></li>
+							<li class="pry-list"><p><a href="#about">ABOUT</a></p></li>
+							<li class="pry-list"><p><a href="#myform">CONTACT</a></p></li>
+							<li class="pry-list"><p><a href="#social">CONNECT</a></p></li>
+						</ul>
+					</div>
+				</nav>
+				<div id="hero">
+				<div id="logo-wrap">
+					<center>
+					<img src="img/logoBig.png" alt="logo" class="logo" id="logo" />
+					</center>
+				</div>
+				<div id="tag-wrap">
+					<p>We Provide The Best Food</p>
+					<p>At the <strong>Right Place</strong></p>
+				</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="first-sect">
+				<div id="showcase-wrap">
+					<div class="showcase no-img">
+						<p>Happy Hour</p>
+						<p>Party Time</p>
+					</div>
+					<div class="showcase img1">
+						<p><em>Breakfast</em></p>
+					</div>
+					<div class="showcase img2">
+						<p><em>Lunch</em></p>
+					</div>
+					<div class="showcase img3">
+						<p><em>Dinner</em></p>
+					</div>
+				</div>
+		</section>
+       
+        <!--
+        <section class="sect-gallery">
+            <div class="gallery-box">
+                    <nav id="gallery-nav">
+                        <ul id="gallery-list">
+                            <li class="list" id="fast-food"></li>
+                            <li class="list" id="drinks" onclick="showGallery">Menu</li>
+                            <li class="list" id="chicken"></li>
+                            <li class="list" id="rice"></li>
+                        </ul>
+                    </nav>
+              <div class="fig-box" id="fig-box">
+              	<div class="figure-box" id="box1">
+              		<figure>
+              			<img src="IMG/chickenBurger.jpg" alt="chicken-burger" class="figures fig1" />
+              			<figcaption class="cap">Chicken Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/beefBurger.jpg" alt="beef-burger" class="fig" />
+              			<figcaption class="cap">Beef Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/chickenPizza.jpg" alt="chicken-pizza" class="figures" />
+              			<figcaption class="cap">Chicken Pizza</figcaption>
+              		</figure>
+              	</div>
+              	
+              	<div class="figure-box" id="box-2">
+              		<figure>
+              			<img src="IMG/drink1.jpg" alt="drink1" class="figures" />
+              			<figcaption class="cap">Drink1</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/drink2.jpg" alt="drink2" class="figures" />
+              			<figcaption class="cap">Drink2</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/drink1.jpg" alt="drink3" class="figures fig3" />
+              			<figcaption class="cap">Drink3</figcaption>
+              		</figure>
+              	</div>
+              	
+              	<div class="figure-box" id="box3">
+              		<figure>
+              			<img src="IMG/chickenBurger.jpg" alt="chicken-burger" class="figures" />
+              			<figcaption class="cap">Chicken Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/chickenPizza.jpg" alt="beef-burger" class="figures fig2" />
+              			<figcaption class="cap">Chicken Pizza </figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/chickenPizza.jpg" alt="chicken-pizza" class="figures" />
+              			<figcaption class="cap">Chicken Pizza</figcaption>
+              		</figure>
+              	</div>
+              	
+              	<div class="figure-box" id="box4">
+              		<figure>
+              			<img src="IMG/chickenBurger.jpg" alt="chicken-burger" class="figures fig1" />
+              			<figcaption class="cap">Chicken Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/beefBurger.jpg" alt="beef-burger" class="figures fig2" />
+              			<figcaption class="cap">Beef Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="IMG/chickenPizza.jpg" alt="chicken-pizza" class="figures fig3" />
+              			<figcaption class="cap">Chicken Pizza</figcaption>
+              		</figure>
+              	</div>
+              	
+              </div>
+            </div>
+        </section>
+-->
+        
+        
+        <section class="second-sect">
+            <div class="flex-container">
+                <div class="cols" id="cols">
+                    <div class="img-box">
+                       <figure><img src="IMG/fastFood1.jpg" alt="fast-food 1" class="fastfoods"/></figure>
+                       <figure><img src="IMG/fastFood2.jpg" alt="fast food 2" class="fastfoods"/></figure>
+                    </div>
+                   
+                    <div class="fastFood" > 
+                        <h2 class="more"> Fast Food </h2>
+                        <p class="short-copy"><strong>You'll love our delicious fast food</strong></p>
+                        <p class="long-copy">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, dui a cursus faucibus, sem nisi accumsan libero, eget congue metus dolor vel mauris. Quisque et orci nibh. Proin ultricies ipsum molestie sem congue placerat. In nunc massa, dignissim et scelerisque a, facilisis ut felis. Nam id scelerisque rius, ac vehicula elit. 
+                        </p>
+                        
+                        
+                        <div class="view-gallery">
+                            <p>VIEW GALLERY &rarr;</p> 
+                        </div>
+                    </div>
+                    
+                    <div class="drinks" id="drink">
+                        <h2 class="more">DRINKS</h2>
+                        <p class="short-copy"><strong>We also produce delicious drinks</strong></p>
+                        <p class="long-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, dui a cursus faucibus, sem nisi accumsan libero, eget congue metus dolor vel mauris. Quisque et orci nibh. Proin ultricies ipsum molestie sem congue placerat. In nunc massa, dignissim et scelerisque a, facilisis ut felis. Nam id scelerisque rius, ac vehicula elit.</p>
+                        <div class="view-gallery">
+                            <p>VIEW GALLERY &rarr;</p>
+                        </div>
+                    </div>
+                    
+                    <div class="rectangle">
+                        <div class="drink-box">
+                            <figure><img src="IMG/drink1.jpg" alt="drink 1" class="drink"/></figure> 
+                            <figure><img src="IMG/drink2.jpg" alt="drink 2" class="drink"/></figure> 
+                            <figure><img src="IMG/lunch.jpg" alt="drink 3" class="drink"/></figure> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       <section class="sect-gallery">
+            <div class="gallery-box">
+                    <nav id="gallery-nav">
+                        <ul id="gallery-list">
+                            <li class="list" id="fast-food" onclick="showFastFood()">Fast Food</li>
+                            <li class="list" id="drinks" onclick="showDrinks()">Drinks</li>
+                            <li class="list" id="chicken" onclick="showChicken()">Chicken</li>
+                            <li class="list" id="rice" onclick="showRice()">Rice</li>
+                        </ul>
+                    </nav>
+              <div class="fig-box" id="fig-box">
+              	<div class="figure-box" id="box1">
+              		<figure>
+              			<img src="img/chickenBurger.jpg" alt="chicken-burger" class="figures fig1" />
+              			<figcaption class="cap">Chicken Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/beefBurger.jpg" alt="beef-burger" class="figures" />
+              			<figcaption class="cap">Beef Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/chickenPizza.jpg" alt="chicken-pizza" class="figures" />
+              			<figcaption class="cap">Chicken Pizza</figcaption>
+              		</figure>
+              	</div>
+              	
+              	<div class="figure-box" id="box2">
+              		<figure>
+              			<img src="img/drink1.jpg" alt="drink1" class="figures" />
+              			<figcaption class="cap">Drink1</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/drink2.jpg" alt="drink2" class="figures" />
+              			<figcaption class="cap">Drink2</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/lunch.jpg" alt="chicken-pizza" class="figures" />
+              			<figcaption class="cap">Drink3</figcaption>
+              		</figure>
+              	</div>
+              	
+              	<div class="figure-box" id="box3">
+              		<figure>
+              			<img src="img/chickenBurger.jpg" alt="chicken-burger" class="figures" />
+              			<figcaption class="cap">Chicken Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/chickenPizza.jpg" alt="beef-burger" class="figures fig2" />
+              			<figcaption class="cap">Chicken Pizza </figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/chickenPizza.jpg" alt="chicken-pizza" class="figures" />
+              			<figcaption class="cap">Chicken Pizza</figcaption>
+              		</figure>
+              	</div>
+              	
+              	<div class="figure-box" id="box4">
+              		<figure>
+              			<img src="img/chickenBurger.jpg" alt="chicken-burger" class="figures fig1" />
+              			<figcaption class="cap">Chicken Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/beefBurger.jpg" alt="beef-burger" class="figures fig2" />
+              			<figcaption class="cap">Beef Burger</figcaption>
+              		</figure>
+              		<figure>
+              			<img src="img/chickenPizza.jpg" alt="chicken-pizza" class="figures fig3" />
+              			<figcaption class="cap">Chicken Pizza</figcaption>
+              		</figure>
+              	</div>
+              	
+              </div>
+            </div>
+        </section> 
+            
+       <!-- 
+               
+        <div class="contain">
+          <ul>
+            <div class="cont">
+            <li class="ag"> Fast Food </li>
+            <li class="ag"> Drinks </li>
+            <li class="ag t"> Chicken </li>
+            <li class="ag t">Rice </li>
+          </ul>
+        </div>
+        </div>
+        <div class="tain">
+          <img src="IMG/chickenBurger.jpg" alt="Chicken Burger" class="card">
+            <img src="IMG/beefBurger.jpg" alt="Beef Burger" class="car">
+            <img src="IMG/chickenPizza.jpg" alt="Chicken Pizza" class="cad">
+
+             <div class="food4 var"> Chicken Burger&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  Beef Burger&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Chicken Pizza </div>
+            </div>
+        </div>
+
+-->
+
+
+     <section class="fourth-sect" id="about">
+         <div class="show-box">
+            <div class="slideshow">
+                <!--<div class="slide">-->
+                   <h2 class="more slide-head">Our happy Customers</h2>
+                   <a class="prev" onclick="slideBut(-1)">&#10094;</a>
+                   <a class="nxt" onclick="slideBut(+1)">&#10095;</a>
+                <div class="slide" id="slide">
+                	<div class="myslide">
+                   <figure id="p1" class="p">
+                   <img src="IMG/p1.png" class="img-txt-slide">
+                    </figure>
+                   <q class="copy capp img-txt-slide">Food combination and the setting is something which keeps you coming back for more</q>
+                   </div>
+                   
+                   <div class="myslide">
+                    <figure id="p2" class="p">
+                   <img src="IMG/p2.png" class="img-txt-slide " >
+                   </figure>
+                   <q class="copy capp img-txt-slide" >Food combination and the setting is something which keeps you coming back for more</q>
+                   </div>
+                   
+                   <div class="myslide">
+                    <figure id="p3" class="p">
+                   <img src="IMG/p3.png" class="img-txt-slide">
+                   </figure>
+                   <q class="copy capp img-txt-slide" > Food combination and the setting is something which keeps you coming back for more </q>
+                   </div>
+                   
+                </div>
+            </div>
+            <div class="about-box">
+                   <h2 class="more slide-head">About Menu</h2>
+                   <p class="copy about-copy img-txt-slide">We have a menu that can cover for even a single person or even a big group. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, dui a cursus faucibus, sem nisi accumsan libero</p> 
+             </div>
+         </div>
+        </section>
+      
+      
+       <footer> 
+        <div class="parent">
+        <div class="subscribe">
+         <h2 class="more more-ft"> Get our daily food delivered into your email </h2>
+          <form id="myform" onsubmit="return validation()">
+              <p class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Your email" id="email"  />
+              </p>
+              <p>
+               <label for="button"></label>
+               <button type="submit" id="button" class="btn">Subscribe</button>
+              </p>
+         </form>
+            </div>
+      </div>
+           <div class="child">
+                <div class="logo-menu-box">
+                    <img src="IMG/logo_white.png" alt="logo">
+                    <p class="name">Menu </p>
+                    <p class="tagline">That's What We are </p>
+               </div>
+                     
+            
+            <div class="social" id="social">
+            <div>
+              <a href="https://www.facebook.com/AccomplishedAfricanWomen">
+              <img src="IMG/fb.png" alt="fb page icon" class="social-icon"> </a>
+            </div>
+              <div>
+                <a href= "https://twitter.com/YaW67238476">
+              <img src="IMG/tweet.png" alt="twitter page icon" class="social-icon"> </a>
+            </div>
+              <div>
+              <img src="IMG/pin.png" alt="pintere page icon" class="social-icon">
+            </div>
+           </div>
+             <p class="copyright"> 2016 Menu restaurant</p>
+           </div>
+           </footer>
+        
+          <script src="script.js"></script>
+        </body>
+    </html>   

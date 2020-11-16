@@ -1,0 +1,447 @@
+
+
+
+/*--smartphone size--*/
+
+@media screen and (max-width: 720px) {
+	
+	body {
+		overflow-x: hidden;
+	}
+
+/*--header---*/
+#header-wrap {
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+#hero {
+	margin-top: 45%;
+	overflow: hidden;
+}
+
+.logo {
+	height: 150px;
+}
+
+#tag-wrap p {
+	font-size: 60%;
+	padding-top: .7em;
+	margin-left: 5em;
+  word-spacing: .5em;
+	padding-bottom: .6em;
+}
+
+/*--reusable--*/
+
+.short-copy {
+    font-size: 55%;
+}
+
+.long-copy {
+    font-size: 65%;
+    padding: .1em 1.5em .1em 0;
+}
+
+.capp {
+	font-size: 65%;
+	/*padding-left: 1em;
+	padding-right: 1em;*/
+}
+
+/*--first section--*/
+#showcase-wrap {
+	display: flex;
+  flex-direction: column;
+  height: 250px;
+  padding-bottom: 250px;
+}
+
+.img1,
+.img2,
+.img3 {
+	height: 500px;
+}
+.img1 p,
+.img2 p,
+.img3 p {
+	margin-left: 60px;
+	padding: 69px 50px 90px 68px;
+}
+
+/*--second section--*/
+
+.second-sect {
+    padding: 200px 0 20px 0;
+}
+
+.flex-container {
+    width: 100%;
+    margin-top: 10%;
+   /* margin: 3%;*/
+}
+
+
+.cols {
+   display: grid;
+   grid-template-columns: 1fr;
+   padding-left: 20px;
+    
+}
+
+.img-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*flex-direction: column;*/
+    width: 80%;
+    margin: 2%;
+}
+
+.fastfoods {
+	transform: scaleY(1.2);
+		width: 100%;
+    height: 100px;
+    padding: .2em 0;
+}
+
+.fastFood {
+    margin: 5% 2%;
+}
+
+.drinks {
+    padding: 1em 0 .5em .3em;
+}
+
+.rectangle {
+    width: 80%;
+    margin: 2%;
+    height: 72%;
+}
+
+/*.drink-box {
+    display: flex;
+}*/
+
+.drink {
+    height: 100px;
+    width: 100%;
+}
+
+/*--gallery-third section--*/
+
+.list {
+	text-align: center;
+	font-size: 50%;
+	/*padding: 10px 8px;*/
+	/*margin-left: 1em;*/
+}
+
+#gallery-list {
+	text-align: center;
+	padding-left: .3em;
+} 
+
+/*
+#box1,
+#box2,
+#box3,
+#box4 {
+    height: 150px;
+}
+*/
+
+
+/*--testimonial-section---*/
+
+.fourth-sect {
+    padding: 40px 15px;
+}
+
+.show-box {
+    display: flex;
+    flex-direction: column;
+    /*width: 80%;
+    margin: 1% auto;*/
+    padding: 1em;
+}
+
+.copy {
+    padding: .5em 5em;
+}
+
+.slideshow img {
+    padding: 0 3.5em;
+}
+
+.slide-head {
+		font-size: 80%;
+    padding-bottom: 2em;
+}
+
+.about-copy {
+    padding: .5em .3em;
+}
+
+.about-box {
+    margin: 3em .3em;
+}
+
+/*--footer--*/
+
+
+.subscribe {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.more-ft {
+    font-size: 80%;
+    line-height: 30px;
+}
+
+#myform {
+    padding-bottom: 3em;
+}
+.email {
+    padding: .2em 0;
+}
+
+input[type="email"] {
+    font-size: 70%;
+    float: none;
+    width: 70%;
+    height: 8%;
+}
+
+button {
+    font-size: 90%;
+    float: none;
+    height: 2em;
+    width: 100%;
+    margin: 3em 0 0 0;
+    outline: none;
+    
+}
+
+
+.child {
+    width: 50%;
+    margin: 40px auto;
+    color: white;
+}
+
+.tagline {
+    font-size: 60%;
+}
+
+.copyright {
+    font-size: 50%;
+}
+}
+
+@keyframes col {
+	from {left: 0;}
+	to {right: 50%;}
+}
+
+@keyframes drinks {
+	from {left: 0;}
+	to {right: 50%;}
+}
+
+
+
+@media screen and (min-width: 768px) and (min-height:768px) {
+
+/*--header--*/
+    
+#header-wrap {
+	
+  background-position: center;
+/*	padding-top: 82%;*/
+	height: 90vh;
+	margin: 0;
+}
+    
+#hero {
+	margin-top: 48%;
+}
+
+.logo {
+	height: 300px;
+    }
+
+#tag-wrap p {
+	font-size: 150%;
+	padding-top: 1em;
+	margin-left: 6.5em;
+	padding-bottom: .7em;
+}
+    
+/*--showcase--*/
+#showcase-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+/*  grid-row: 190px;*/
+  width: auto;
+}
+
+.img1 p,
+.img2 p,
+.img3 p {
+    text-align: center;
+	margin-left: 20px;
+	padding: 110px 50px 130px;/*increase from 85 to 110px*/
+}
+
+/*--second sect--*/
+.second-sect {
+    padding: 3px 0;
+}  
+    
+.flex-container {
+    width:100%;
+    margin: 41% auto 5% auto;/*increase from 5% top to 41%*/
+}
+
+.cols {
+        display: flex;
+        flex-direction: column;
+/*        width: 80%;*/
+        margin: 0 auto;
+    }
+
+.img-box {
+    width: 61.5%;
+}
+    
+.fastFood {
+    margin: 9% 1% 1% 0;
+}
+    
+.long-copy {
+    padding: .1em 8em .1em 0;
+}
+    
+.drinks {
+    padding: 2em 0 .3em 0;
+}
+
+.rectangle {
+    margin: 1.3em 0 .5em .1em;
+    padding: 10px;
+    width: 75%;
+    height: 46%;
+}
+
+.drink {
+    height: 180px;
+    width: 100%;
+}
+
+/*-=section gallery--*/
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    display:none;
+}
+
+/*--testimonial section---*/
+
+.show-box {
+    display: flex;
+    flex-direction: column;
+/*
+    width: 80%;
+    margin: 1% auto;
+*/
+    padding: 1.5em;
+}
+
+.slideshow {
+    padding-bottom: 2.5em;
+}
+
+.slideshow img {
+    padding: 0 9em;
+}
+    
+.about-box {
+    margin-left: .1em;
+}
+
+/*--footer---*/
+    
+.parent {
+    background: url(IMG/subscribe.jpg) no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.subscribe {
+    width: 47%;
+    padding-left: .8em;
+}
+
+.more-ft {
+    font-size: 100%;
+    padding-top: 1.8em;
+    line-height: 30px;
+}
+
+#myform {
+    padding-bottom: 2em;
+}
+    
+input[type="email"] {
+    width: 47%;
+    height: 3em;
+    float: none;
+}
+
+button {
+    font-size: 80%;
+    height: 3em;
+    width: 100%;
+    margin: 4em 0 0 0;
+    float: none;
+}
+}
+
+/*--tablet size--*/
+@media screen and (min-width: 1600px) {
+    
+/*--header--*/
+
+#header-wrap {
+	
+  background-position: center;
+}
+    
+#hero {
+	margin-top: 23%;
+}
+
+.menu {
+  height: 30px;
+  width: auto;
+    }
+    
+/*
+.logo {
+	height: 300px;
+	width: auto;
+	padding: 2px;
+  margin-left: 3%;
+}
+*/
+#tag-wrap p {
+	font-size: 145%;
+	text-align: justify;
+	margin-left: 13.5em;
+}
+    
+}
